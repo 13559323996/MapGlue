@@ -32,11 +32,10 @@ The MapData-test dataset can be obtained at this link xxxxxxx, and the full data
 # Runing MapGlue
 ## Requirements
 ```python
-conda create -n mapglue python=3.12
-conda activate mapglue
 git clone xxx
 cd MapGlue
-pip install -r requirements.txt
+conda env create -f environment.yaml
+conda activate mapglue
 ```
 ## Usage
 ### Running Inference
