@@ -61,9 +61,10 @@ image1 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
 # Convert numpy arrays to torch.Tensor
 image0 = torch.from_numpy(image0)
 image1 = torch.from_numpy(image1)
+num_keypoints = torch.tensor(2048) # Defaults to 2048
 
 # Run inference
-points_tensor = model(image0, image1)
+points_tensor = model(image0, image1, num_keypoints)
 points0 = points_tensor[:, :2]
 points1 = points_tensor[:, 2:]
 ```
