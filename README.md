@@ -28,7 +28,10 @@ MapData/
 └── ...
 ```
 
-The MapData-test dataset can be obtained at this link xxxxxxx, and the full dataset will be available after our paper is accepted!
+The ``MapData-test`` dataset can be obtained at following links:<br>
+(1) google drive https://drive.google.com/file/d/1VQSyIzs_0X15OH1aXVxeSii0JZmW9WzL/view?usp=sharing<br>
+(2) baidu drive https://pan.baidu.com/s/1zMR6V4zNPK8azU5w9rrUuQ  Extract code: ``2ym1``. <br>
+The full dataset will be available after our paper is accepted!
 # Runing MapGlue
 ## Requirements
 ```python
