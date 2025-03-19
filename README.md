@@ -1,2 +1,1 @@
-# MapGlue
-MapGlue: Multimodal Remote Sensing Image Matching
+# MapGlue: Multimodal Remote Sensing Image Matching
