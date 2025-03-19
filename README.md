@@ -7,6 +7,8 @@ Fig. 1. Qualitative Results of Multimodal Image Matching. "Easy," "Normal," and 
 
 ## MapData Dataset
 ![数据集分布_2_github](https://github.com/user-attachments/assets/5c3476ae-c466-47ba-899b-f06780ce0a90)
+Fig. 2. Geographic Distribution of Sampled Images in the MapData Dataset.
+MapData, a globally diverse dataset spanning 233 sampling points, offers original images (7,000×5,000 to 20,000×15,000 pixels). After rigorous cleaning, it provides 121,781 aligned electronic map–visible image pairs (512×512 pixels) with hybrid manual-automated ground truth, addressing the scarcity of scalable multimodal benchmarks.
 
 
 
