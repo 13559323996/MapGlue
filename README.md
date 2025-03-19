@@ -32,7 +32,7 @@ The MapData-test dataset can be obtained at this link xxxxxxx, and the full data
 # Runing MapGlue
 ## Requirements
 ```python
-git clone xxx
+git clone https://github.com/PeihaoWu/MapGlue.git
 cd MapGlue
 conda env create -f environment.yaml
 conda activate mapglue
