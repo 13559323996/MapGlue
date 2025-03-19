@@ -1,0 +1,15 @@
+name: mapglue
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - torchaudio=2.4.1
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - -r requirements.txt
