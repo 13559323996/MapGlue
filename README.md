@@ -41,6 +41,7 @@ conda env create -f environment.yaml
 conda activate mapglue
 ```
 ## Usage
+We published the pt model for the lighter version of ``FastMapGlue``.
 ### Running Inference
 The TorchScript model accepts inputs as ``torch.Tensor`` with shape ``(H, W, C)`` in RGB format. Values may be in the range [0, 255] (uint8) or [0, 1]. The model internally converts the image to the required format.  
 Below is a demo:
@@ -49,7 +50,7 @@ Below is a demo:
 import cv2
 import torch
 # Load the TorchScript model
-model = torch.jit.load('./weights/mapglue_model.pt')
+model = torch.jit.load('./weights/fastmapglue_model.pt')
 model.eval()
 
 # Read input images using OpenCV
