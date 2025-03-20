@@ -7,7 +7,7 @@
 <div align="center">
 
 Peihao Wu, Yongxiang Yao*, Wenfei Zhang, Dong Wei, Yi Wan, Yansheng Li, Yongjun Zhang*<br>
-the School of Remote Sensing Information Engineering, Wuhan University<br>
+School of Remote Sensing Information Engineering, Wuhan University<br>
 (*)Corresponding author.
 
 </div>
