@@ -90,7 +90,7 @@ points1 = points_tensor[:, 2:]
 # Citation
 If you find our work useful in your research, please consider giving a star ⭐ and a citation
 ```python
-@inproceedings{wu2025mapglue,
+@article{wu2025mapglue,
       title={MapGlue: Multimodal Remote Sensing Image Matching}, 
       author={Peihao Wu and Yongxiang Yao and Wenfei Zhang and Dong Wei and Yi Wan and Yansheng Li and Yongjun Zhang},
       booktitle={Arxiv},
