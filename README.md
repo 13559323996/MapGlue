@@ -70,8 +70,8 @@ model = torch.jit.load('./weights/fastmapglue_model.pt')
 model.eval()
 
 # Read input images using OpenCV
-image0 = cv2.imread('./assets/image0.jpg')
-image1 = cv2.imread('./assets/image1.jpg')
+image0 = cv2.imread('./assets/map-visible/L2.png')
+image1 = cv2.imread('./assets/map-visible/R2.png')
 
 # Convert BGR to RGB
 image0 = cv2.cvtColor(image0, cv2.COLOR_BGR2RGB)
